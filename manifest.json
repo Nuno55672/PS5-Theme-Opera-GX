@@ -1,0 +1,162 @@
+{
+    "description": "Playstation 5 fan-made theme for Opera GX.",
+    "developer":
+    {
+        "name": "SpyderVice"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "credits.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/ps5_main_menu.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/feature_switch_off.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/feature_switch_on.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/important_click.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/level_upgrade.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/limiter_off.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/limiter_on.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/switch.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/close_tab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/new_tab.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/backspace.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/enter.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/letter_1.mp3",
+                    "keyboard/letter_2.mp3",
+                    "keyboard/letter_3.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/space.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 188,
+                        "s": 100,
+                        "l": 50
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 188,
+                        "s": 4,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 188,
+                        "s": 100,
+                        "l": 30
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 188,
+                        "s": 4,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/ps5_background.webm",
+                    "first_frame": "wallpaper/first_frame.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/ps5_background.webm",
+                    "first_frame": "wallpaper/first_frame.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            },
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.theme.css",
+                        "css/changecolors.css"            
+                    ]
+                }
+            ]
+        },
+        "schema_version": 1
+    },
+    "name": "PS5 Theme",
+    "version": "1.0"
+}
